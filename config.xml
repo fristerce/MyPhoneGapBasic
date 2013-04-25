@@ -16,7 +16,7 @@
     <author href="http://fc.aws.af.cm" email="projectfirecream@gmail.com">
         Ron 
     </author>
-	<preference name="phonegap-version" value="2.6.0" />
+	<preference name="phonegap-version" value="2.5.0" />
 	<preference name="fullscreen" value="true" />
 	<preference name="webviewbounce" value="false" />
 	<preference name="stay-in-webview" value="true" />
