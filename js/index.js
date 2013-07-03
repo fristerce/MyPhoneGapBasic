@@ -43,7 +43,7 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
         $(".app").attr("style","display:none;");
-        $('<iframe src="http://fc.aws.af.cm/mFC/" height="100%" width="100%" frameborder="0" class="fcframe"></iframe>').appendTo('body');
+        $('<iframe src="http://demofc.aws.af.cm/mFC/" height="100%" width="100%" frameborder="0" class="fcframe"></iframe>').appendTo('body');
         document.addEventListener("offline", this.offlineAppEvent, false);
         document.addEventListener("online", this.showframeAppEvent, false);
     },
@@ -55,6 +55,6 @@ var app = {
    },
    showframeAppEvent: function(id) {
    		$(".app").attr("style","display:none;");
-        $('<iframe src="http://fc.aws.af.cm/mFC/" height="100%" width="100%" frameborder="0" class="fcframe"></iframe>').appendTo('body');
+        $('<iframe src="http://demofc.aws.af.cm/mFC/" height="100%" width="100%" frameborder="0" class="fcframe"></iframe>').appendTo('body');
     }
 };

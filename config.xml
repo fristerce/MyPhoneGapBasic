@@ -7,20 +7,20 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>FireCream</name>
+    <name>NotesBind</name>
 
     <description>
-        Rule the Earth 
+        Reinventing the online binder 
     </description>
 
-    <author href="http://fc.aws.af.cm" email="projectfirecream@gmail.com">
+    <author href="http://demofc.aws.af.cm" email="projectfirecream@gmail.com">
         Ron 
     </author>
 	<preference name="phonegap-version" value="2.3.0" />
 	<preference name="fullscreen" value="true" />
 	<preference name="webviewbounce" value="false" />
 	<preference name="stay-in-webview" value="true" />
-	<preference name="exit-on-suspend" value="true" />
+	<preference name="exit-on-suspend" value="false" />
 	<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
 	<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
 	<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
